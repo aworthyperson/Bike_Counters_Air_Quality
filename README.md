@@ -22,6 +22,8 @@ https://enviwa.ecology.wa.gov/home/map
 The python ENV Amanda has been using
 https://uwgda-jupyterbook.readthedocs.io/en/latest/resources/conda.html
 
-The to activate in terminal 
+Use this to activate the python enviornment in the terminal
+
 conda activate uwgda2022
+
 jupyter lab
