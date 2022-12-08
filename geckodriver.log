@@ -1,0 +1,96 @@
+1670354917336	geckodriver	INFO	Listening on 127.0.0.1:64791
+1670354917860	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "--remote-debugging-port" "64792" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/_0/wy7tb6qj0kn08q2vk43vjwb40000gn/T/rust_mozprofileliT9dp"
+*** You are running in headless mode.
+1670354918442	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/_0/wy7tb6qj0kn08q2vk43vjwb40000gn/T/rust_mozprofileliT9dp/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+DevTools listening on ws://localhost:64792/devtools/browser/40d73c16-1b43-544c-9841-c2cf8470c4bc
+1670354920412	Marionette	INFO	Listening on port 64799
+1670354920482	Marionette	WARN	TLS certificate errors will be ignored for this session
+1670354931613	Marionette	INFO	Stopped listening on port 64799
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1670354931880	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:129
+1670354947183	geckodriver	INFO	Listening on 127.0.0.1:64926
+1670354947709	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "--remote-debugging-port" "64927" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/_0/wy7tb6qj0kn08q2vk43vjwb40000gn/T/rust_mozprofileqi4Bqv"
+*** You are running in headless mode.
+1670354948039	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/_0/wy7tb6qj0kn08q2vk43vjwb40000gn/T/rust_mozprofileqi4Bqv/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+DevTools listening on ws://localhost:64927/devtools/browser/35b0c1f8-f9f1-a748-84b5-56e2b898e268
+1670354949372	Marionette	INFO	Listening on port 64935
+1670354949388	Marionette	WARN	TLS certificate errors will be ignored for this session
+1670354981235	Marionette	INFO	Stopped listening on port 64935
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1670354981481	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:129
+1670354981832	geckodriver	INFO	Listening on 127.0.0.1:65028
+1670354982359	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "--remote-debugging-port" "65029" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/_0/wy7tb6qj0kn08q2vk43vjwb40000gn/T/rust_mozprofileqCSw45"
+*** You are running in headless mode.
+1670354982698	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/_0/wy7tb6qj0kn08q2vk43vjwb40000gn/T/rust_mozprofileqCSw45/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+DevTools listening on ws://localhost:65029/devtools/browser/17781af2-1f09-d644-8016-bc26646c8236
+1670354984170	Marionette	INFO	Listening on port 65036
+1670354984243	Marionette	WARN	TLS certificate errors will be ignored for this session
+1670355015095	Marionette	INFO	Stopped listening on port 65036
+!!! error running onStopped callback: TypeError: callback is not a function
+1670355015345	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:129
+1670355165208	geckodriver	INFO	Listening on 127.0.0.1:65145
+1670355165736	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "--remote-debugging-port" "65146" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/_0/wy7tb6qj0kn08q2vk43vjwb40000gn/T/rust_mozprofilelF8Hng"
+*** You are running in headless mode.
+1670355166239	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/_0/wy7tb6qj0kn08q2vk43vjwb40000gn/T/rust_mozprofilelF8Hng/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+DevTools listening on ws://localhost:65146/devtools/browser/c38c4ab2-889e-1c41-9910-1e76d6b9711e
+1670355167918	Marionette	INFO	Listening on port 65153
+1670355167930	Marionette	WARN	TLS certificate errors will be ignored for this session
+1670355180046	Marionette	INFO	Stopped listening on port 65153
+!!! error running onStopped callback: TypeError: callback is not a function
+1670355180310	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:129
+1670355309660	geckodriver	INFO	Listening on 127.0.0.1:65324
+1670355310184	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "--remote-debugging-port" "65325" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/_0/wy7tb6qj0kn08q2vk43vjwb40000gn/T/rust_mozprofileSQFetP"
+*** You are running in headless mode.
+1670355310674	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/_0/wy7tb6qj0kn08q2vk43vjwb40000gn/T/rust_mozprofileSQFetP/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+DevTools listening on ws://localhost:65325/devtools/browser/a932afe4-98f0-a840-9381-7b39af6d830a
+1670355312282	Marionette	INFO	Listening on port 65332
+1670355312394	Marionette	WARN	TLS certificate errors will be ignored for this session
+1670355328625	Marionette	INFO	Stopped listening on port 65332
+!!! error running onStopped callback: TypeError: callback is not a function
+1670355328885	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:129
